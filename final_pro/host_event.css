@@ -1,0 +1,30 @@
+div{
+	border: 1px solid black;
+}
+.container{
+	width: 100%;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	height: 700px;
+}
+.logo {
+	width: 300px;
+	margin: auto;
+
+}
+.logo img{
+	width: 300px;
+}
+.left{
+	float: left;
+	left: 0px;
+	width: 200px;
+	height: 400px;
+}
+.content{
+	float: right;
+	right: 60px;
+	width: 900px;
+	height: 400px;
+}

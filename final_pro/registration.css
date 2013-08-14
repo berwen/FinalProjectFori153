@@ -1,0 +1,38 @@
+div{
+	border: 1px solid black;
+}
+.container{
+	width: 100%;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	height: 700px;
+}
+.logo {
+	position: absolute;
+	float: left;
+	width: 300px;
+	margin-left: 20px;
+}
+.logo img{
+
+	width: 300px;
+}
+.pic img{
+	width: 200px;
+}
+.left{
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 20px;
+	width: 200px;
+	height: 400px;
+}
+.info{
+	position: absolute;
+	float: right;
+	right: 20px;
+	width: 600px;
+	height: 500px;
+	margin-top: 40px;
+}

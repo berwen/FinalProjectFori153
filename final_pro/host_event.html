@@ -1,0 +1,39 @@
+<!doctype html>
+<!--名字与logo我都临时用点别的东西替代了 需要替换的东西会加一行注释的-->
+<html>
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    	<title>host an activity</title>
+    	<!-- need change-->
+    	<link rel="stylesheet" type="text/css" href="host_event.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">For Activity Organisers</div>
+			<div class="logo">
+				<img src="http://sitemaker.umich.edu/butterflywalk/files/falrf-logo.jpg",alt="logo">
+			</div>
+			<div class="left">
+				<div>
+					<span>tag for search</span>
+					<div>your event type is</div>
+					<div id="eventType"></div>
+					<span>not in the list?</span>
+					<br/>
+					<a href="">create new type</a>
+				</div>
+			</div>
+			<div class="content">
+				<form action="demo_form.asp">
+					Activity name: <input type="text" name="activityName" ><br>
+					Time: <input type="text" name="time" ><br>
+					Location:<input type="text" name="location" ><br>
+					Decription:<input type="text" name="description" ><br>
+					Need to Pay:<input type="text" name="money" value="Y/N"><br>
+					<input type="submit" value="Submit">
+				</form>
+				<!--这个form是我从网上找的 点提交可以提交到服务器上 感觉好像很厉害的样子所以就留下了-->
+			</div>
+		</div>
+	</body>
+</html>

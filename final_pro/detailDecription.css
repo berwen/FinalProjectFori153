@@ -1,0 +1,37 @@
+body{
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+}
+div{
+	border: 1px solid black;
+	text-align: center;
+}
+.container{
+	position: absolute;
+	width: 100%;
+	height: 700px;
+}
+.logo {
+	width: 200px;
+	margin: auto;
+
+}
+.logo img{
+	width: 200px;
+}
+.left{
+	margin-top: 40px;
+	margin-left: 20px;
+	float: left;
+	width: 200px;
+	height: 400px;
+}
+.popEvent{
+	padding: 10px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 40px;
+	width: 950px;
+	height: 600px;
+}
