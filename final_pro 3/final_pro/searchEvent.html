@@ -1,0 +1,53 @@
+<!doctype html>
+<!--名字与logo我都临时用点别的东西替代了 需要替换的东西会加一行注释的-->
+<html>
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    	<title>Search activities</title>
+    	<!-- need change-->
+    	<link rel="stylesheet" type="text/css" href="searchEvent.css">
+    	<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    	<script type="text/javascript" src="js/searchEvent.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">Campus Activities</div>
+			<div class="left">
+				<div class="logo">
+					<img src="logo.png",alt="logo">
+				</div>
+				<div id="option">
+				<input type="text" name="search" value="search"><br>
+				<button>SEARCH!</button>
+				<div>
+					<span>Activities you may be interested in</span><br>
+					<div class="catagory" id="lecture">Lecture</div>
+					<div class="catagory" id="volunteer">Volunteer</div>
+					<div class="catagory" id="internship">Internship</div>
+					<div class="catagory" id="sports">Sports</div>
+				</div>
+				</div>
+			</div>
+			<div class="popEvent">
+				<div id="Tag"></div>
+					<img id="post" src="../events_constituent_engagement.jpg">
+				<div class="thumbnail">
+					<h1>head</h1>
+					<div class="detail">short description of the activity</div>
+					<div class="detail">ENDED/NOT START</div>
+					<div class="detail">JOIN!</div>
+				</div>
+				<div id="Act">
+					<div class="activities" id='a1'></div>
+					<div class="activities" id='a2'></div>
+					<div class="activities" id='a3'></div>
+					<div class="activities" id='a4'></div>
+					<div class="activities" id='a5'></div>
+					<div class="activities" id='a6'></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

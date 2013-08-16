@@ -1,0 +1,78 @@
+<!doctype html>
+<!--名字与logo我都临时用点别的东西替代了 需要替换的东西会加一行注释的-->
+<html>
+	<head>
+    	<title>host an activity</title>
+    	<!-- need change-->
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    	<link href="hostEvent.min.css" rel="stylesheet" media="screen">
+    	<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    	<script type="text/javascript" src="js/create.js"></script>
+    </head>
+	<body>
+		<div class="container">
+			<blockquote class="header">
+			  <p>For Activity Organisers</p>
+			</blockquote>
+			<div class="logo">
+				<img id = "a" src="smallLogo.png" class="img-rounded" alt="logo">
+			</div>
+			<div class="left">
+				<div>
+					<p class="text-success">Add tags to activity</p>
+					<div class="btn-group">
+					  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+					    Category
+					    <span class="caret"></span>
+					  </a>
+					  <ul class="dropdown-menu">
+					    <!-- dropdown menu links -->
+					  </ul>
+					</div>
+					<br/>
+					<span class="label">Lecture</span><br/>
+					<span class="label label-success">Internship</span><br/>
+					<span class="label label-warning">Conference</span><br/>
+					<span class="label label-important">Sports</span><br/><br/>
+					<div class="alert">
+					  <button type="button" class="close" data-dismiss="alert">&times;</button>
+					  <strong>No one fits!</strong> None of the tags describes your activity
+					</div>
+					<br/>
+					<button class="btn btn-primary" type="button">Create your tag</button>
+				</div>
+			</div>
+			
+			 <fieldset >
+				    <legend>Activity Info</legend>
+				    <div id="infoForm">
+				    	<form name="create" action="searchEvent.html">
+				    	<label>Title</label>
+					    <input type="text" id="names" placeholder="who is hosting">
+					    <label>location</label>
+					    <input type="text" id="locations" placeholder="where">
+					    <label>Time</label>
+					    <input type="text" id="times" placeholder="when">
+					    <label>Detailed Description</label>
+					    <input type="text" id="descriptions" placeholder="show highlight and form">
+					    <label>Need to Pay</label>
+					    <input type="text" id="pays" placeholder="Yes/No">
+					    <span class="help-block">Example block-level help text here.</span>
+					    <button  class="btn btn-success" id="submit">Submit</button>
+				    <button  class="btn btn-warning">Cancel</button>
+					    </form>
+				    
+
+				    </div>
+				    
+				  </fieldset>
+				
+				
+		</div>
+	<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="hostEvent.min.js"></script>
+	</body>
+</html>

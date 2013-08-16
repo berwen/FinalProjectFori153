@@ -1,5 +1,4 @@
-FinalProjectFori153
-===================
+bootstrap_test
+==============
 
-final project for i153
-This is our Git for final project for i153. --Bowen
+Testing New Bootstrap

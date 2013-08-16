@@ -1,0 +1,87 @@
+<!doctype html>
+<!--名字与logo我都临时用点别的东西替代了 需要替换的东西会加一行注释的-->
+<html>
+	<head>
+		
+    	<title>registration page</title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    	<link href="./css/registration.min.css" rel="stylesheet" media="screen">
+	</head>
+	<body>
+		<div class="container">
+			
+			<div class="left">
+				<img src="./img/logo.png" class="img-rounded">
+				<br/>
+				<br/>
+				<input type="text" name="search" value="search"><br>
+				<!--<div>
+					<span>Activities you may be interested in</span><br>
+					<div class="catagory">Lecture</div>
+					<div class="catagory">Volunteer</div>
+					<div class="catagory">Internship</div>
+					<div class="catagory">Sports</div>
+				</div>-->
+				<ul class="nav nav-list" id="leftbar">
+				  <li class="nav-header">You may be interested in</li>
+				  <li class="active"><a href="#">Popular</a></li>
+				  <li><a href="#">Lecture</a></li>
+				  <li><a href="#">Volunteer</a></li>
+				  <li><a href="#">Internship</a></li>
+				  <li><a href="#">Sports</a></li>
+				</ul>
+			</div>
+			<div class="info">
+				<div class="pic">
+					<img src="http://icons.iconarchive.com/icons/deleket/scrap/256/User-icon.png" alt="userPhoto">
+					<button class="btn btn-info" type="button">Upload Photo</button>
+				</div>
+				<form>
+				  <fieldset >
+				    <legend id="tit">User Info</legend>
+				    <div id="infoForm">
+				    	<label>User name</label>
+					    <input type="text" placeholder="choose a name">
+					    <label>I am a</label>
+					    <div class="btn-group">
+						  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+						    grade
+						    <span class="caret"></span>
+						  </a>
+						  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+							  <li><a tabindex="-1" href="#">Action</a></li>
+							  <li><a tabindex="-1" href="#">Another action</a></li>
+							  <li><a tabindex="-1" href="#">Something else here</a></li>
+							  <li class="divider"></li>
+							  <li><a tabindex="-1" href="#">Separated link</a></li>
+							</ul>
+						</div>
+					    <label>My major is</label>
+					    <div class="btn-group">
+						  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+						    major
+						    <span class="caret"></span>
+						  </a>
+						  <ul class="dropdown-menu">
+						    <!-- dropdown menu links -->
+						  </ul>
+						</div>
+					    <label>I am interested in</label>
+					    <input type="text" placeholder="choose a name">
+					    
+					    <span class="help-block">Example block-level help text here.</span>
+				    <button type="submit" class="btn btn-success">Submit</button>
+				    <button type="submit" class="btn btn-warning">Cancel</button>
+
+				    </div>
+				    
+				  </fieldset>
+				</form>
+				<!--这个form是我从网上找的 点提交可以提交到服务器上 感觉好像很厉害的样子所以就留下了-->
+			</div>
+		</div>
+	<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="./js/registration.min.js"></script>
+	</body>
+</html>

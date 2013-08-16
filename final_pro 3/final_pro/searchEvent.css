@@ -1,0 +1,138 @@
+body{
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	background:url(../background-15.jpg);
+}
+div{
+	text-align: center;
+	border-radius: 5px;
+}
+input{
+	margin-top:4px;
+	border-radius:5px;
+	height:18px;
+}
+.container{
+	position: absolute;
+	width: 100%;
+	height: 700px;
+}
+.logo {
+	width: 200px;
+	margin: auto;
+}
+.logo img{
+	width: 200px;
+	opacity:0.95;
+	border-radius: 5px;
+}
+.left{
+	margin-top: 60px;
+	margin-left: 200px;
+	float: left;
+	width: 200px;
+	height: 440px;
+	display:inline;
+	border-radius: 10px;
+}
+#option{
+	height:330px;
+	background-color: #6699CC;
+	margin-top:4px;
+}
+.popEvent{
+	padding: 10px;
+	float: right;
+	margin-right: 200px;
+	margin-top: 40px;
+	width: 700px;
+	height: 600px;
+	font-family:Georgia;
+	font-size:20px;
+}
+.catagory{
+	margin:auto;
+	margin-top:10px;
+	font-family:Georgia;
+	font-size:24px;
+	background-color:#99CCCC;
+	margin-bottom:5px;
+	opacity:0.8;
+	width:180px;
+}
+.catagory:hover{
+
+}
+span{
+	font-family:Arial Black;
+	font-size:24px;
+}
+#post{
+	width:320px;
+	height: 280px;
+	display:inline;
+	float:left;
+	padding:5px;
+}
+.thumbnail{
+	width: 360px;
+	height:290px;
+	background-color: white;
+	float:left;
+}
+.detail{
+	font-family:Georgia;
+	font-size:20px; 
+}
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+.header{
+	font-family:Arial Black;
+	font-size:40px;
+	margin-top: 40px;
+}
+.activities{
+	height:250px;
+	width:300px;
+	background-color: #99CCCC;
+	float:left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+#Act{
+	background-color: #6699CC;
+	height:400px;
+	width:680px;
+	float:left;
+	margin-top: 5px;
+	margin-left:10px;
+}
+#Tag{
+	height:100px;
+	width:680px;
+	float:left;
+	background-color:#6699CC;
+	margin-bottom: 10px;
+}
